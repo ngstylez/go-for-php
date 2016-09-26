@@ -1,1 +1,18 @@
 /* Apply any CSS customizations here */
+
+body {
+  background: url("../images/go-gopher3.png") no-repeat bottom center;
+}
+
+body .reveal .slides {
+  text-align: left;
+}
+
+.reveal pre {
+  width: 100%;
+  font-size: .75em;
+}
+
+.reveal pre code {
+  padding: .75em;
+}
