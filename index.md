@@ -10,6 +10,9 @@ Golang'n since 2014
 
 # Background
 ##
+"Go is efficient, scalable, and productive. Some programmers find it fun to work in; others find it unimaginative, even boring."
+- Rob Pike https://talks.golang.org/2012/splash.articl
+##
 "Most interesting thing about Go is that it's not object oriented or procedural or functional, it's its own new exciting thing"
 - David Kinzer https://twitter.com/dtkinzer/status/786031866478407681
 ##
@@ -27,6 +30,7 @@ Golang'n since 2014
 ##
 "When launching a new language it is important that the target audience be able to learn it quickly; rooting Go in the C family helps make sure that young programmers, most of whom know Java, JavaScript, and maybe C, should find Go easy to learn."
 - Rob Pike https://talks.golang.org/2012/splash.article#TOC_12.
+
 
 # Hello World
 ## Download: https://golang.org/doc/install
@@ -94,7 +98,10 @@ func main() {
 
 # CSP
 
-## 
+"Do not communicate by sharing memory; instead, share memory by communicating."
+- http://www.golangbootcamp.com/book/concurrency
+
+##
 ```
 // A _goroutine_ is a lightweight thread of execution.
 
@@ -135,6 +142,11 @@ func main() {
     fmt.Println("done")
 }
 ```
+## Channels
+ 
+"Channels are the pipes that connect concurrent goroutines." 
+https://gobyexample.com/channels
+
 
 
 # moar stuff
@@ -154,6 +166,8 @@ https://www.infoq.com/presentations/clojure-core-async
 https://golang.org/doc/effective_go.html
 hackerrank.com
 https://youtu.be/fZh8uCInEfw
+https://www.gitbook.com/book/gobridge/building-web-apps-with-go/details
+http://www.golangbootcamp.com/
 
 #Examples
 https://github.com/coreos/etcd
