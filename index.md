@@ -42,6 +42,13 @@ Golang'n since 2014
 `$ export GOPATH=$HOME/work`
 
 
+## `go get`
+`go get github.com/4ad/doozer`
+
+## `go run`
+
+## `go build`
+
 ## `go fmt`
 - Pollution (won't allow unnused things)
 - Tabs vs Spaces (WHO CARES)
@@ -59,11 +66,31 @@ func main() {
 }
 ```
 ##
-https://4.bp.blogspot.com/-O4jXmTm7WWI/Tyw1As8jt7I/AAAAAAAAI9E/nxxi1T21IH4/s1600/unicode.png
+- https://4.bp.blogspot.com/-O4jXmTm7WWI/Tyw1As8jt7I/AAAAAAAAI9E/nxxi1T21IH4/s1600/unicode.png
 
 
-## 
-```
+# Functions
+`func Abs(x T) float64`
+`func ReadByte() (c byte, err error)`
+
+# Methods
+`func (x T) Abs() float64`
+
+
+# Arrays vs Slices
+`letters := [26]string{"a","b"........`
+`letters := []string{"a","b"........`
+
+
+# Maps
+
+`m = map[string]int{}`
+
+`m["route"] = 66`
+
+
+
+``
 ...
 package main
 ...
@@ -85,12 +112,6 @@ func main() {
 ...
 ```
 
-
-## `go install`
-
-## `go run`
-
-## `go build`
 
 # declaration plus assignment operator (:=)
  In Go, := is for declaration + assignment, whereas = is only for assignment only.
