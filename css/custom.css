@@ -1,7 +1,7 @@
 /* Apply any CSS customizations here */
 
 body {
-  background: url("../images/go-gopher3.png") no-repeat bottom center;
+  background: url("../images/go-gopher3.png") no-repeat bottom left;
 }
 
 body .reveal .slides {
