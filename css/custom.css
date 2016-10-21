@@ -1,12 +1,13 @@
 /* Apply any CSS customizations here */
 
 body {
-  background: url("../images/go-gopher3.png") no-repeat bottom left;
+  background: url("../images/go-gopher3-transparent.png") no-repeat bottom left;
 }
 
 body .reveal .slides {
   text-align: left;
 }
+
 
 .reveal pre {
   width: 100%;

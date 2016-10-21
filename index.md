@@ -45,15 +45,15 @@
 
 # Hello World
 
-## Download: https://golang.org/doc/install
-
-## untar it in /usr/local
+## Download
+- https://golang.org/doc/install
+- `$ tar -C /usr/local -xzf go1.7.3.linux-amd64.tar.gz`
 
 ## Tell Shell about Go
 `$ export PATH=$PATH:/usr/local/go/bin`
 
 ## Tell Go where your code is
-`$ export GOPATH=$HOME/work`
+`$ export GOPATH=$HOME/go`
 
 ##
 ```
@@ -95,7 +95,7 @@ func main() {
 
 # Free Tools!
 ## `go get`
-`go get github.com/4ad/doozer`
+- `go get github.com/Netflix/chaosmonkey`
 
 ## `go run`
 
@@ -107,26 +107,73 @@ func main() {
 - One standard to rule them all
 
 # Syntax
+
 ## Functions
-`func Abs(x T) float64`
-`func ReadByte() (c byte, err error)`
+```
+func Abs(x T) float64
+func add(x int, y int) int
+func ReadByte() (c byte, err error)
+```
 
-## Methods
-`func (x T) Abs() float64`
-
-## Arrays vs Slices
-`letters := [26]string{"a","b"........`
-`letters := []string{"a","b"........`
-
-## Maps
-
-`m = map[string]int{}`
-
-`m["route"] = 66`
+## Variables
+```
+var c, python, java bool
+var i, j int = 1, 2
+```
 
 ## :=
- In Go, := is for declaration + assignment
- = is only for assignment
+In Go, := is for declaration + assignment
+
+= is only for assignment
+
+Can also be used for shorthand execution in `if`
+
+## Methods
+```
+  type Vertex struct {
+      X, Y float64
+  }
+
+  func (v Vertex) Abs() float64 {
+      return math.Sqrt(v.X*v.X + v.Y*v.Y)
+  }
+
+  func main() {
+      v := Vertex{3, 4}
+        fmt.Println(v.Abs())
+  }
+```
+
+## Arrays vs Slices
+- `letters := [26]string{"a","b"........`
+- `letters := []string{"a","b"........`
+- Zero value of a slice is nil
+-   `append()`
+
+## Maps
+- `m = map[string]int{}`
+- `m["route"] = 66`
+
+## Structs
+```
+type Vertex struct {
+  X int
+	Y int
+}
+
+func main() {
+	v := Vertex{1, 2}
+	v.X = 4
+	fmt.Println(v.X)
+}
+```
+
+## Loops
+For is Go's "while"
+
+## Defer
+A defer statement defers the execution of a function until the surrounding function returns.
+
 
 
 # CSP
@@ -136,6 +183,7 @@ https://en.wikipedia.org/wiki/Communicating_sequential_processes
 
 ##
 "Do not communicate by sharing memory; instead, share memory by communicating."
+
 - http://www.golangbootcamp.com/book/concurrency
 
 ##
@@ -179,27 +227,32 @@ https://en.wikipedia.org/wiki/Communicating_sequential_processes
     fmt.Println("done")
 ```
 ## Channels
-"Channels are the pipes that connect concurrent goroutines." 
-https://gobyexample.com/channels
+"Channels are the pipes that connect concurrent goroutines."
+
+- https://gobyexample.com/channels
 
 
 # Demo Time!
+https://github.com/mrf/go-for-php-code
 
 # Resources:
-- https://golang.org/doc/effective_go.html
+- golang.org/doc/effective_go.html
 - On Reddit: r/golang and r/learngolang
-- Todd McLeod - Udemy Course https://www.udemy.com/learn-how-to-code/
-- https://www.infoq.com/presentations/clojure-core-async
-- https://golang.org/doc/effective_go.html
+- udemy.com/learn-how-to-code/
+- infoq.com/presentations/clojure-core-async
+- golang.org/doc/effective_go.html
 - hackerrank.com
-- https://youtu.be/fZh8uCInEfw
-- https://www.gitbook.com/book/gobridge/building-web-apps-with-go/details
-- http://www.golangbootcamp.com/
+- youtu.be/fZh8uCInEfw
+- gitbook.com/book/gobridge/building-web-apps-with-go/details
+- golangbootcamp.com
+- tour.golang.org or |`go tool tour`|
 
 #Examples
 - https://github.com/coreos/etcd
 - https://github.com/docker
 - https://github.com/hybridgroup/gobot
+
+
 
 # Credits:
 - https://github.com/eosrei/rjsmake
