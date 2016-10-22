@@ -13,37 +13,37 @@
 ##
 "Go is efficient, scalable, and productive. Some programmers find it fun to work in; others find it unimaginative, even boring."
 
-- Rob Pike talks.golang.org/2012/splash.articl
+- Rob Pike: talks.golang.org/2012/splash.articl
 
 ##
 "Most interesting thing about Go is that it's not object oriented or procedural or functional, it's its own new exciting thing"
 
-- David Kinzer twitter.com/dtkinzer/status/786031866478407681
+- David Kinzer: twitter.com/dtkinzer/status/786031866478407681
 
 ##
 "with Go I was able to pick up programming / CS concepts rather quickly, enjoy the process, and learn a ton of things in the meantime"
 
-- Audrey Lim  youtu.be/fZh8uCInEfw
+- Audrey Lim: youtu.be/fZh8uCInEfw
 
 ##
 "Although Go is quite a small language, it is a very rich and expressive language (as measured in syntactic constructs, concepts, and idioms), so there is a surprising amount to learn."
 
-- Freddy Rangel spaces-vs-tabs.com/4-weeks-of-golang-the-good-the-bad-and-the-ugly/
+- Freddy Rangel: spaces-vs-tabs.com/4-weeks-of-golang-the-good-the-bad-and-the-ugly/
 
 ##
 "Even if you’re a dynamic language zealot, I bet you’d be shocked how productive you can be with a statically typed language like Go."
 
-- Blake Smith blakesmith.me/2012/08/19/why-you-should-learn-to-program-in-go.html
+- Blake Smith: blakesmith.me/2012/08/19/why-you-should-learn-to-program-in-go.html
 
 ##
 "Golang is a very pleasant language to get systems-y things done in. I'm fond of saying that it's not an amazing language, but is an amazing programming tool."
 
-- tptacek news.ycombinator.com/item?id=9381093
+- tptacek: news.ycombinator.com/item?id=9381093
 
 ##
 "When launching a new language it is important that the target audience be able to learn it quickly; rooting Go in the C family helps make sure that young programmers, most of whom know Java, JavaScript, and maybe C, should find Go easy to learn."
 
-- Rob Pike talks.golang.org/2012/splash.article#TOC_12.
+- Rob Pike: talks.golang.org/2012/splash.article#TOC_12.
 
 
 # Hello World
@@ -257,7 +257,6 @@ https://github.com/mrf/go-for-php-code
 - https://github.com/coreos/etcd
 - https://github.com/docker
 - https://github.com/hybridgroup/gobot
-
 
 
 # Credits:
